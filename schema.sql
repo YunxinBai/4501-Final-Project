@@ -11,9 +11,7 @@ CREATE TABLE IF NOT EXISTS daily_weather (
     date DATE NOT NULL,
     precipitation FLOAT,
     average_wind_speed FLOAT,
-    snowfall FLOAT,
-    sunrise TIME,
-    sunset TIME
+    snowfall FLOAT
 );
 
 CREATE TABLE IF NOT EXISTS taxi_trips (
@@ -52,4 +50,11 @@ CREATE TABLE IF NOT EXISTS uber_trips (
     tip_amount FLOAT,
     airport_fee FLOAT,
     congestion_surcharge FLOAT
+);
+
+CREATE TABLE IF NOT EXISTS sun (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date DATE NOT NULL,
+    sunrise TIME,
+    sunset TIME
 );
