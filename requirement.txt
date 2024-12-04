@@ -13,3 +13,40 @@ Python package we had to conda install or pip install.
 11. seaborn
 12. folium
 13. ipython
+
+Following is a detailed explanation:
+To accomplish our project, we use several libraries to handle tasks such as data processing, visualization, database interaction, and geospatial analysis. Here’s a brief overview:
+
+- File and Directory Management:
+  - `os`: Helps manage directories and file paths.
+
+- Web Scraping:
+  - `bs4` and `BeautifulSoup`: Extract data from web pages.
+
+- Data Handling:
+  - `pandas`: Works with tabular datasets, like spreadsheets.
+  - `geopandas`: Adds geospatial capabilities to pandas for working with maps and location data.
+
+- Database Interaction:
+  - `sqlalchemy`: Connects our data to a SQLite database for storage and querying.
+
+- Math and Statistics:
+  - `math` and `numpy`: Perform calculations and handle arrays of data.
+
+- Date and Time:
+  - `datetime`: Manage dates and times for our analysis.
+
+- Regular Expressions:
+  - `re`: Helps search for patterns in text, like extracting URLs.
+
+- Testing:
+  - `pytest`: Ensures our functions work as expected through automated testing.
+
+- Visualization:
+  - `matplotlib.pyplot`: Creates graphs and charts to visualize trends and patterns.
+
+- Geospatial Data:
+  - `fiona`, `shapely`, and `GeoDataFrame`: Handle maps, locations, and geographic shapes.
+
+This mix of tools enables us to handle various aspects of the project, from downloading and cleaning data to storing it in a database and creating visualizations.
+
