@@ -5,6 +5,15 @@ __pycache__/
 # Ignore CSV files
 *.csv
 
+# Ignore GIS and shapefile-related files
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.shp
+*.shp.xml
+*.shx
+
 # Ignore Parquet files
 *.parquet
 
