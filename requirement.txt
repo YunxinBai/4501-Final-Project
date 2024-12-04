@@ -1,0 +1,15 @@
+Python package we had to conda install or pip install.
+
+1. beautifulsoup4
+2. matplotlib
+3. pandas
+4. geopandas
+5. requests
+6. sqlalchemy
+7. numpy
+8. fiona
+9. pytest
+10. shapely
+11. seaborn
+12. folium
+13. ipython
