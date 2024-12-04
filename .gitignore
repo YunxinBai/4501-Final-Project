@@ -17,9 +17,15 @@ __pycache__/
 # Ignore Parquet files
 *.parquet
 
-# Ignore SQLite database files
+# Ignore SQLite and database files
 *.sqlite
 *.db
+
+# Ignore HTML files
+*.html
+
+# Ignore GIF files
+*.gif
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
